@@ -1,0 +1,7 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  color: black;
+  border: 1px solid coral;
+}
