@@ -1,7 +1,9 @@
 export const DrinkItems = ({ drinks }) => {
-  <>
-    {drinks.map((drink) => (
-      <p key={drink.id}>{drink.name}</p>
-    ))}
-  </>;
+  return (
+    <>
+      {drinks.map((drink) => (
+        <p key={drink.id}>{drink.name}</p>
+      ))}
+    </>
+  );
 };
