@@ -1,0 +1,23 @@
+.drink-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  gap: 2rem;
+  background-color: #fff;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  margin-top: 5px;
+  cursor: pointer;
+  color: #696969;
+}
+
+button:hover {
+  border: 1px solid #cf901a;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
